@@ -1,0 +1,65 @@
+.app {
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.app__header > h1 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+.app__right canvas {
+  margin-top: 2rem;
+  height: 32rem !important;
+  width: 100% !important;
+}
+
+.MuiListItem-root {
+  font-size: 1.3rem !important;
+}
+.MuiSelect-root {
+  font-size: 1.3rem !important;
+}
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.app__dropdown {
+  background-color: #fff;
+}
+.MuiMenu-paper {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+.MuiSelect-iconOutlined {
+  font-size: 2.5rem !important;
+  right: 4px !important;
+  margin-left: 1rem !important;
+}
+.MuiSelect-outlined.MuiSelect-outlined {
+  line-height: 1;
+  text-align: center !important;
+  padding: 1rem 2.5rem !important;
+  padding-left: 1rem !important;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .app__stats {
+    flex-direction: column;
+  }
+  html {
+    font-size: 52%;
+  }
+}

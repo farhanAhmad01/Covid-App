@@ -1,6 +1,5 @@
 # COVID Tracker
-<a href="http://covidtracker-8b901.web.app" >Live Demo</a>
-<img src="https://imguploader.net/if/9JM5gtqUaHah.png" alt="img" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
